@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/conf/app-web-projectwork" mode="merge"/>
+    <filter root="/content/app-web-projectwork" mode="merge"/>
+    <filter root="/content/dam/app-web-projectwork" mode="merge">
+        <exclude pattern="/content/dam/app-web-projectwork(/.*)?"/>
+        <include pattern="/content/dam/app-web-projectwork/jcr:content(/.*)?"/>
+    </filter>
+    <filter root="/content/dam/app-web-projectwork/asset.jpg" mode="merge"/>
+    <filter root="/content/experience-fragments/app-web-projectwork" mode="merge"/>
+</workspaceFilter>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/app-web-projectwork/clientlibs"/>
+    <filter root="/apps/app-web-projectwork/components"/>
+    <filter root="/apps/app-web-projectwork/i18n"/>
+</workspaceFilter>

@@ -1,0 +1,7 @@
+{
+    "scripts": [
+        "create path (sling:OrderedFolder) /content/dam/app-web-projectwork",
+        "create path (nt:unstructured) /content/dam/app-web-projectwork/jcr:content",
+        "set properties on /content/dam/app-web-projectwork/jcr:content\n  set cq:conf{String} to /conf/app-web-projectwork\n  set jcr:title{String} to \"Applicazione projectwork\"\nend"
+    ]
+}
