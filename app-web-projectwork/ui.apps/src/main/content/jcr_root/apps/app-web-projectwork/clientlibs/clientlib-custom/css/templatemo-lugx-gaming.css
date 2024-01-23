@@ -1116,7 +1116,7 @@ footer {
   background-color: #0071f8;
   background-repeat: no-repeat;
   background-size: cover;
-  background-image: url(../images/footer-bg.jpg);
+  background-image: url(/apps/app-web-projectwork/clientlibs/clientlib-custom/resources/images/footer-bg.jpg);
   min-height: 150px;
   border-radius: 150px 150px 0px 0px;
 }
@@ -1148,7 +1148,7 @@ Page Header Style
 */
 
 .page-heading {
-  background-image: url(../images/page-heading-bg.jpg);
+  background-image: url(/apps/app-web-projectwork/clientlibs/clientlib-custom/resources/images/page-heading-bg.jpg);
   border-radius: 0px 0px 150px 150px;
   background-position: center bottom;
   background-repeat: no-repeat;
