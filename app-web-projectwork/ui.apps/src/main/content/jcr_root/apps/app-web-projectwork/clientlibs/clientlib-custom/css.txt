@@ -1,9 +1,9 @@
-#base=css/vendor/bootstrap/
-bootstrap.min.css
+#base=css
 
-#base=css/
+bootstrap.min.css
+fontawesome.css
+poppins.css
+templatemo-lugx-gaming.css
+owl.css
 animate.css
 flex-slider.css
-fontawesome.css
-owl.css
-templatemo-lugx-gaming.css
