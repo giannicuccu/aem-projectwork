@@ -1,0 +1,11 @@
+#base=js/vendor/bootstrap/
+bootstrap.min.js
+
+#base=js/vendor/jquery/
+jquery.min.js
+
+#base=js/
+isotope.min.js
+owl-carousel.js
+counter.js
+custom.js
