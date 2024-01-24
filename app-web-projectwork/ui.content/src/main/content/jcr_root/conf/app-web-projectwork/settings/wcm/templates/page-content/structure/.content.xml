@@ -9,11 +9,12 @@
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="app-web-projectwork/components/container"
-            layout="responsiveGrid">
+            layout="simple">
             <experiencefragment-header
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="app-web-projectwork/components/experiencefragment"
-                fragmentVariationPath="/content/experience-fragments/app-web-projectwork/us/en/site/header/master"/>
+                fragmentVariationPath="/content/experience-fragments/app-web-projectwork/us/en/site/header/master"
+                cq:noDecoration="true"/>
             <container
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="app-web-projectwork/components/container"
@@ -31,7 +32,8 @@
             <experiencefragment-footer
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="app-web-projectwork/components/experiencefragment"
-                fragmentVariationPath="/content/experience-fragments/app-web-projectwork/us/en/site/footer/master"/>
+                fragmentVariationPath="/content/experience-fragments/app-web-projectwork/us/en/site/footer/master"
+                cq:noDecoration="true"/>
         </root>
         <cq:responsive jcr:primaryType="nt:unstructured">
             <breakpoints jcr:primaryType="nt:unstructured">

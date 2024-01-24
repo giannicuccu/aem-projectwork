@@ -7,3 +7,4 @@ templatemo-lugx-gaming.css
 owl.css
 animate.css
 flex-slider.css
+fixes.css
