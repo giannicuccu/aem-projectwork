@@ -8,14 +8,12 @@
         <root
             jcr:primaryType="nt:unstructured"
             sling:resourceType="app-web-projectwork/components/container"
-            layout="responsiveGrid">
+            layout="simple">
             <container
                 jcr:primaryType="nt:unstructured"
                 sling:resourceType="app-web-projectwork/components/container"
                 layout="responsiveGrid">
-                <title
-                    jcr:primaryType="nt:unstructured"
-                    sling:resourceType="app-web-projectwork/components/title"/>
+                
                 <container
                     jcr:primaryType="nt:unstructured"
                     sling:resourceType="app-web-projectwork/components/container"

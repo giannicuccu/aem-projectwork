@@ -3,4 +3,4 @@
     jcr:primaryType="cq:Component"
     jcr:title="Component Project Work Header"
     componentGroup="Applicazione projectwork - Content"
-    cq:noDecoration="true"/>
+    />
