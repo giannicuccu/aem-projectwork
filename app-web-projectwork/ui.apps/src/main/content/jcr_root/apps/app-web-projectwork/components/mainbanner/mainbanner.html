@@ -13,14 +13,16 @@
     See the License for the specific language governing permissions and
     limitations under the License.
 */-->
+
+
 <div class="main-banner">
     <div class="container">
       <div class="row">
         <div class="col-lg-6 align-self-center">
           <div class="caption header-text">
-            <h6>Welcome to lugx</h6>
-            <h2>BEST GAMING SITE EVER!</h2>
-            <p>LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming websites. You can download and use this layout for commercial purposes. Please tell your friends about TemplateMo.</p>
+            <h6> ${properties.intro} </h6>
+            <h2> ${properties.title} </h2>
+            <p>  ${properties.text} </p>
             <div class="search-input">
               <form id="search" action="#">
                 <input type="text" placeholder="Type Something" id='searchText' name="searchKeyword" onkeypress="handle" />
@@ -31,9 +33,9 @@
         </div>
         <div class="col-lg-4 offset-lg-2">
           <div class="right-image">
-            <img src="/content/dam/app-web-projectwork/images/banner-image.jpg" alt="">
-            <span class="price">$22</span>
-            <span class="offer">-40%</span>
+            <img src="${properties.imagePath}" alt="">
+            <span class="price">$ ${'#0.00' @ format=properties.price}</span>
+            <span class="offer">- ${'#0.00' @ format=proprties.discount}% </span>
           </div>
         </div>
       </div>

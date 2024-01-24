@@ -14,9 +14,47 @@
                     
                     <!-- dialog items goes here -->
 
+                    <introField  
+                        jcr:primaryType="nt:unstructured"  
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"    
+                        fieldLabel="Intro"  
+                        name="./intro"/> 
+
+                    <titleField  
+                        jcr:primaryType="nt:unstructured"  
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"    
+                        fieldLabel="Title"  
+                        name="./title"/> 
+
+                    <textField  
+                        jcr:primaryType="nt:unstructured"  
+                        sling:resourceType="granite/ui/components/coral/foundation/form/textfield"    
+                        fieldLabel="Text"  
+                        name="./text"/> 
+
+                    <priceField
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+                        fieldLabel="Price"
+                        required="{Boolean}true"
+                        name="./price" /> 
+
+                    <discountField
+                        jcr:primaryType="nt:unstructured"
+                        sling:resourceType="granite/ui/components/coral/foundation/form/numberfield"
+                        fieldLabel="Discount"
+                        required="{Boolean}true"
+                        name="./discount" /> 
+                                 
+                    <imagePathField  
+                    jcr:primaryType="nt:unstructured"  
+                    sling:resourceType="granite/ui/components/coral/foundation/form/pathfield"    
+                    fieldLabel="Image Path"  
+                    rootPath="/content/dam/app-web-projectwork"
+                    name="./imagePath" />
+
                 </items>
             </column>
         </items>
     </content>
 </jcr:root>
-
