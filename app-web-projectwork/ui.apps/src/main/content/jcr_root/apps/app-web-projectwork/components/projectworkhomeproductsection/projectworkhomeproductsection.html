@@ -1,0 +1,49 @@
+<!--/*
+    Copyright 2015 Adobe Systems Incorporated
+  
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+  
+        http://www.apache.org/licenses/LICENSE-2.0
+  
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+*/-->
+
+<div class="section ${properties.sectionClass}">
+    <div class="container">
+      <div class="row">
+        <div data-sly-test="${! properties.sectionClass == 'categories'}" class="col-lg-6">
+        <div data-sly-test="${properties.sectionClass == 'categories'}" class="col-lg-12 text-center">
+          <div class="section-heading">
+            <h6>${properties.sectionSubtitle}</h6>
+            <h2>${properties.sectionTitle}</h2>
+          </div>
+        </div>
+        <div data-sly-test="${! properties.sectionClass == 'categories'}" class="col-lg-6">
+          <div class="main-button">
+            <a href="">View All</a>
+          </div>
+        </div>
+        <!-- the template placeholder-->
+        <sly data-sly-resource="${'product-section-dynamic-content' @ resourceType='app-web-projectwork/components/container'}"></sly>
+        <!--/* <div class="col-lg-3 col-md-6">
+          <div class="item">
+            <div class="thumb">
+              <a href="product-details.html"><img src="assets/images/trending-01.jpg" alt=""></a>
+              <span class="price"><em>$28</em>$20</span>
+            </div>
+            <div class="down-content">
+              <span class="category">Action</span>
+              <h4>Assasin Creed</h4>
+              <a href="product-details.html"><i class="fa fa-shopping-bag"></i></a>
+            </div>
+          </div>
+        </div> */-->
+      </div>
+    </div>
+  </div>
