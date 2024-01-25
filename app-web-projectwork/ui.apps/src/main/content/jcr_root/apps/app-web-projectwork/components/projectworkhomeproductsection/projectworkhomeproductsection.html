@@ -17,14 +17,19 @@
 <div class="section ${properties.sectionClass}">
     <div class="container">
       <div class="row">
-        <div data-sly-test="${! properties.sectionClass == 'categories'}" class="col-lg-6">
-        <div data-sly-test="${properties.sectionClass == 'categories'}" class="col-lg-12 text-center">
+        <div data-sly-test="${properties.sectionClass == 'trending' || properties.sectionClass == 'most-played'}" class="col-lg-6">
           <div class="section-heading">
             <h6>${properties.sectionSubtitle}</h6>
             <h2>${properties.sectionTitle}</h2>
           </div>
         </div>
-        <div data-sly-test="${! properties.sectionClass == 'categories'}" class="col-lg-6">
+        <div data-sly-test="${properties.sectionClass == 'categories'}" class="col-12 text-center">
+          <div class="section-heading">
+            <h6>${properties.sectionSubtitle}</h6>
+            <h2>${properties.sectionTitle}</h2>
+          </div>
+        </div>
+        <div data-sly-test="${properties.sectionClass == 'trending' || properties.sectionClass == 'most-played'}" class="col-lg-6">
           <div class="main-button">
             <a href="">View All</a>
           </div>
