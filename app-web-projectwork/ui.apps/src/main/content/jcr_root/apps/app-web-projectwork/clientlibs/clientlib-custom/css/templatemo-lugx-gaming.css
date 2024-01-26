@@ -831,6 +831,10 @@ Trending Style
   margin-bottom: 30px;
 }
 
+.trending .aem-GridColumn{
+    padding: 0 12px;
+}
+
 .trending .item .thumb {
   position: relative;
   border-radius: 25px;
@@ -923,6 +927,9 @@ Most Played Style
   border-radius: 25px;
   text-align: center;
   margin-bottom: 40px;
+}
+.most-played .aem-GridColumn{
+    padding: 0 12px;
 }
 
 .most-played .item .thumb {

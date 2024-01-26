@@ -15,8 +15,8 @@ main.container {
     flex-wrap: wrap;
 }
 .section.categories .aem-Grid.aem-Grid--default--12>.aem-GridColumn.aem-GridColumn--default--2{
-    width: calc(20% - 16px);
-    padding-left: 8px;
-    padding-right: 8px;
+    width: calc(20% - 24px);
+    padding-left: 12px;
+    padding-right: 12px;
     float: none;
 }
