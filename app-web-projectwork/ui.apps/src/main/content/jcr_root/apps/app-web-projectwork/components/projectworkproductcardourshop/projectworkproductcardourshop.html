@@ -1,0 +1,57 @@
+<!--/*
+    Copyright 2015 Adobe Systems Incorporated
+  
+    Licensed under the Apache License, Version 2.0 (the "License");
+    you may not use this file except in compliance with the License.
+    You may obtain a copy of the License at
+  
+        http://www.apache.org/licenses/LICENSE-2.0
+  
+    Unless required by applicable law or agreed to in writing, software
+    distributed under the License is distributed on an "AS IS" BASIS,
+    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+    See the License for the specific language governing permissions and
+    limitations under the License.
+*/-->
+
+<!--/* <sly data-sly-use.cardsModel="${'model.js'}"></sly> */-->
+<div class="col-lg-3 col-md-6 align-self-center mb-30 trending-items col-md-6 adv">
+    <div class="item">
+        <div class="thumb">
+            <a href=""><img src="${properties.productImage}" alt=""></a>
+            <span class="price"><em data-sly-test="${properties.discountPrice}">$ ${'#0' @ format=properties.discountPrice}</em> $ ${'#0' @ format=properties.productPrice}</span>
+        </div>
+        <div class="down-content">
+            <span class="category">${properties.productCategory}</span>
+            <h4>${properties.productName}</h4>
+            <!--/* <a href="product-details.html"><i class="fa fa-shopping-bag"></i></a> */-->
+            <a href=""><i class="fa fa-shopping-bag"></i></a>
+        </div>
+    </div>
+</div>
+
+
+<!--/* <div  class="features" >	
+
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-3 col-md-6" data-sly-repeat="${cardsModel.cards}">
+				<a href="#">
+					<div class="item">
+						<div class="image">
+							<img src="${item.imagePath}" alt="" style="max-width: 44px;">
+						</div>
+						<h4>${item.title}</h4>
+					</div>
+				</a>
+			</div>
+		</div>
+	</div>
+
+</div> */-->
+
+<!--/* <div class="css-section" data-sly-test="${! wcmmode.disabled}">
+	<sly data-sly-repeat="${sliderModel.slides}">
+		<p data-sly-test="${itemList.index == 0 && !itemList.title  && !itemList.imagePath">add feature cards</p>
+	</sly>
+</div> */-->
