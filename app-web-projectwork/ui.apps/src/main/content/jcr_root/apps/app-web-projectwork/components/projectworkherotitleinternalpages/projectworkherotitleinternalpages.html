@@ -19,7 +19,8 @@
       <div class="row">
         <div class="col-lg-12">
           <h3>${currentPage.title}</h3>
-          <span class="breadcrumb"><a href="#">Home</a> &gt; ${currentPage.title}</span>
+          <!-- <span class="breadcrumb"><a href="#">Home</a> &gt; ${currentPage.title}</span> -->
+          <sly data-sly-resource="${'resource' @ resourceType='app-web-projectwork/components/breadcrumb'}"></sly>
         </div>
       </div>
     </div>
