@@ -14,6 +14,78 @@
                     
                     <!-- dialog items goes here -->
 
+                <contactIntroTitle
+                jcr:primaryType="nt:unstructured"  
+                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"    
+                fieldLabel="Intro Title" 
+                required="{Boolean}true"
+                name="./contactIntroTitle"/>
+
+                <contactTitle
+                jcr:primaryType="nt:unstructured"  
+                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"    
+                fieldLabel="Title" 
+                required="{Boolean}true"
+                name="./contactTitle"/>
+
+                <contactText
+                jcr:primaryType="nt:unstructured"  
+                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"    
+                fieldLabel="Intro Title" 
+                required="{Boolean}true"
+                name="./contactText"/>
+
+
+                  <!-- multifield  -->
+                  <multifield
+                  jcr:primaryType="nt:unstructured"
+                  sling:resourceType="granite/ui/components/coral/foundation/form/multifield"
+                  composite="{Boolean}true"
+                  fieldLabel="COntact Items">
+                  <field
+                     jcr:primaryType="nt:unstructured"
+                     sling:resourceType="granite/ui/components/coral/foundation/container"
+                     name="./contactItems">
+                     <items jcr:primaryType="nt:unstructured">
+                        <column
+                           jcr:primaryType="nt:unstructured"
+                           sling:resourceType="granite/ui/components/coral/foundation/container">
+                           <items jcr:primaryType="nt:unstructured">
+                           
+                              <!-- here fields which form the multifield -->
+                              <contactLabel
+                                 jcr:primaryType="nt:unstructured"  
+                                 sling:resourceType="granite/ui/components/coral/foundation/form/textfield"    
+                                 fieldLabel="Contact Label" 
+                                 required="{Boolean}true"
+                                 name="./contactLabel"/>
+                              
+                                 
+                              <contactValue  
+                                 jcr:primaryType="nt:unstructured"  
+                                 sling:resourceType="granite/ui/components/coral/foundation/form/textfield"    
+                                 fieldLabel="Contact value"
+                                 required="{Boolean}true"
+                                 name="./contactValue" />
+
+                                 <!-- end of multifield items -->
+                                 
+                           </items>
+                        </column>
+                     </items>
+                  </field>
+
+                  
+               </multifield>
+               <!-- end of multifield -->
+
+               <mapUrl
+                jcr:primaryType="nt:unstructured"  
+                sling:resourceType="granite/ui/components/coral/foundation/form/textfield"    
+                fieldLabel="Map url" 
+                required="{Boolean}true"
+                name="./mapUrl"/>
+
                 </items>
             </column>
         </items>
